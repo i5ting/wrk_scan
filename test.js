@@ -1,1 +1,3 @@
-require('.')('.')
+// require('.')('.')
+
+require('.')('.', 'c.json')
