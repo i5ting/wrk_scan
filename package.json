@@ -4,6 +4,7 @@
   "description": "wrk scan",
   "main": "index.js",
   "scripts": {
+    "start": "git commit -am 'init' && git push && npm publish .",
     "test": "node test.js",
     "clean": "rm wrk.log.json wrk2.log.json "
   },
