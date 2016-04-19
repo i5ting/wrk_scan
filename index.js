@@ -6,7 +6,7 @@ module.exports = function(path ){
   files.forEach(function(file){
     if (/\.log$/.test(file)) {
       console.log(file)
-      result[file.replace('.log', '')] = require('wrkparser')(file)
+      result[file.replace('.log', '')] = require('wrkparser')(file, true)
     }
   })
 }
