@@ -1,11 +1,15 @@
 {
   "name": "wrk_scan",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "wrk scan",
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
     "clean": "rm wrk.log.json wrk2.log.json "
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "wrk_scan": "bin/wrk_scan.js"
   },
   "repository": {
     "type": "git",
