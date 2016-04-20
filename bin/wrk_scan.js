@@ -6,4 +6,4 @@ argv.shift();
 var file_path = __dirname;
 var current_path = process.cwd();
 
-require('.')(current_path, 'wrk_result.json')
+require('..')(current_path, 'wrk_result.json')
