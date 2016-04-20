@@ -1,6 +1,6 @@
 {
   "name": "wrk_scan",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "wrk scan",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,6 @@
   "homepage": "https://github.com/i5ting/wrk_scan#readme",
   "dependencies": {
     "moment": "^2.13.0",
-    "wrkparser": "^1.0.4"
+    "wrkparser": "^1.0.5"
   }
 }
